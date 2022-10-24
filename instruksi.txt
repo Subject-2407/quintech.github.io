@@ -1,0 +1,25 @@
+~~~~~~~~~~~~~~~~~~~~~~ PTS PRAKTIK PKK ~~~~~~~~~~~~~~~~~~~~~~
+Membuat company profile dengan template yang sudah disediakan dan kembangkan sesuai dengan company yang sudah pernah kalian kerjakan sebelumnya.
+
+<-- 1 -->
+Penilaian ini dilakukan secara berKELOMPOK. Pastikan kalian ingat dengan teman satu kelompok praktikum.
+
+<-- 2 -->
+- yang dikumpulkan : video screen hasil website company profile + penjelasannya (voice over)
+- munculkan nomor kelompok, nama anggota, dan nomor presensi di awal video
+- DEADLINE PENGERJAAN : RABU, 28 SEPTEMBER 2022 (cukup perwakilan kelompok saja yang mengumpulkan)
+
+<-- 3 -->
+- Gunakan file index.html sebagai template. 
+- TIDAK DIPERBOLEHKAN UNTUK MENGURANGI BARIS KODE 
+- SILAHKAN MENAMBAH KONTEN DAN HIAS WEBSITE SESUAI HASIL DISKUSI kelompok
+- Diperkenankan untuk menambah file css, javascript dan menambahkan gambar pada folder images
+
+<-- 4 -->
+referensi untuk menghias website
+- https://getbootstrap.com/docs/4.6/getting-started/introduction/
+- https://hackerthemes.com/bootstrap-cheatsheet/
+- https://getwaves.io/
+- https://www.flaticon.com/
+
+NB : BAGI YANG TELAT MENGUMPULKAN ATAU SUBMIT SETELAH DEADLINE AKAN MENDAPAT NILAI PALING MAKSIMAL 60

@@ -1,0 +1,287 @@
+html{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.navbar-brand{
+    margin-left: 10px;
+}
+
+.navbar img{
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.navbar .navbar-brand:link, .navbar .navbar-brand:visited{
+    color: #e9d700;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.navbar .navbar-nav .nav-link, .navbar .navbar-nav .nav-link:visited{
+    margin-right: 10px;
+    font-family: Lexend Deca;
+    font-size: 18px;
+    color: white;
+}
+
+.background-div{
+    position: relative;
+    background-image: url("e.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: 0px 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 1000px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.background-div .quintech-logo{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.quintech-logo img{
+    filter: drop-shadow(5px 5px 5px #393939);
+}
+
+.quintech-logo img::selection{
+    color: white;
+}
+
+.quintech-logo h1{
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: 700; 
+    color: #e9d700; 
+    font-size: 80px; 
+    text-shadow: 2px 2px #393939;
+}
+
+.quintech-logo h1::selection{
+    color: #393939;
+}
+
+.tentang{
+    padding: 50px 24px 50px 24px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+@media (min-width:1280px){
+    .tentang{
+        padding: 70px 400px 120px 400px;
+    }
+}
+
+.tentang h1{
+    font-weight: 700;
+    font-size: 50px;
+        
+}
+
+.tentang p, h2, h3{
+    font-family: Lexend Deca;
+}
+
+.tentang p{
+    font-size: 20px;
+}
+
+.visi-misi{
+    display: block;
+}
+
+.visi{
+    border-radius: 20px;
+    background-color: #e9d700;
+    padding: 10px 20px 10px 20px;
+}
+
+.visi p{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.misi{
+    color: #e9d700;
+    border-radius: 20px;
+    background-color: #393939;
+    padding: 10px 20px 10px 20px;
+}
+
+.misi ol{
+    line-height: 200%;
+    font-family: Lexend Deca;
+    text-align: left;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+}
+
+.misi li{
+    padding-left: 10px;
+}
+
+.layanan{
+    padding: 70px 400px 120px 400px;
+    color: white;
+    text-align: center;
+    width: 500x;
+    background-color: #393939;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.services{
+    border-radius: 150px;
+    padding: 20px 40px 20px 50px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.services img{
+    float: left;
+    margin-left: 50px;
+    filter: invert(100%);
+}
+
+.services h2{
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.services p{
+    font-size: 30px;
+    color: rgba(255,255,255, 0.6);
+}
+
+#awan{
+    background-color: #db5800;
+}
+
+#isp{
+    background-color: #0051e7;
+}
+
+#software{
+    background-color: #00be4f;
+}
+
+#iot{
+    background-color: #e0d01f;
+}
+
+#design{
+    background-color: #c900db;
+}
+
+.testimoni{
+    padding: 70px 100px 120px 100px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.testimoni img{
+    border: 5px solid black;
+    border-radius: 100px;
+}
+
+.testimoni p{
+    margin-top: 10px;
+    font-family: Lexend Deca;
+    font-size: 20px;
+}
+
+.box-testi{
+    padding: 20px 0px 20px 0px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 20rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.box-testi em{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.tim{
+    padding: 70px 100px 120px 100px;
+    text-align: center;
+    color: white;
+    background-color: #393939;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.tim p{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #393939;
+    font-family: Lexend Deca;
+}
+
+.tim img{
+    border: 5px solid black;
+    border-radius: 100px;
+}
+
+#p2{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.box-tim{
+    padding: 20px 0px 20px 0px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: #e9d700;
+    width: 16rem;
+}
+
+.kontak{
+    padding: 70px 100px 120px 100px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box-sosmed{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box-sosmed p{
+    margin-top: 10px;
+}
+
+#quintech{
+    font-family:'Courier New', Courier, monospace;
+    color: #e9d700;
+}
+
+footer p{
+    font-size: 20px;
+}
